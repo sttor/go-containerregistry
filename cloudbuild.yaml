@@ -16,7 +16,7 @@ steps:
     shadow=$$GOPATH/src/github.com/google/go-containerregistry
     link_dir=$$(dirname "$$shadow")
     mkdir -p $$link_dir
-    ln -s $$PWD $$shadow || stat $$shadow
+    ln -s $$PWD $$shadow || stat $$shado
 
     # Install ko from release.
     curl -L -o ko.tar.gz https://github.com/google/ko/releases/download/v0.13.0/ko_0.13.0_Linux_i386.tar.gz
