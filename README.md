@@ -6,7 +6,7 @@
 
 ## Introductio
 This is a golang library for working with container registries.
-It's largely based on the [Python library of the same name](https://github.com/google/containerregistry).
+It's largely based on the [Python library of the same name](https://github.com/google/containerregistry)
 
 The following diagram shows the main types that this library handles.
 ![OCI image representation](images/ociimage.jpeg)
